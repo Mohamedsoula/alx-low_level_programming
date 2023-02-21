@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-	int print_alphabet();
+	void print_alphabet();
+	{
 		char x = 'a';
 			while (x <= 'z')
 			{
 				int putchar(int x);
 		x++;
 			}
+	}
 	return (0);
 }
