@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
  * main - check the code
@@ -12,10 +12,7 @@ int main(void)
 		char x = 'a';
 			while (x <= 'z')
 			{
-				void putchar()
-				{
-					putchar(x);
-				}
+				int putchar(int x);
 		x++;
 			}
 	}
